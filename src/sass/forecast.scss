@@ -1,0 +1,21 @@
+.parent-container {
+  display: flex;
+  justify-content: space-between;
+  .forecast-container {
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    padding: 0 2em;
+    font-family: "Source Sans Pro", sans-serif;
+    .date-wrapper {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    #description {
+      margin-top: 0;
+    }
+    hr {
+      margin: 0;
+    }
+  }
+}

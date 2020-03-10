@@ -1,0 +1,10 @@
+@import "forecast";
+@import "weather";
+@import "form";
+body {
+  background-color: #27325a;
+}
+.App {
+  width: 80%;
+  margin: 0 auto;
+}
